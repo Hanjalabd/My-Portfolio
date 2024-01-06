@@ -1,8 +1,3 @@
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 body{
     font-family: 'Hedvig Letters Serif', serif;
@@ -21,6 +16,13 @@ font-family: 'Satisfy', cursive;
     font-weight: 700;
     padding: 8px 15px;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
 .nav-title{
     color: #181818;
     font-size: 45px;
@@ -36,4 +38,16 @@ nav li{
 nav a{
     text-decoration: none;
     color: black;
+}
+.header{
+    background-color: #ede4de;
+    margin: 0;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile{
+    width: 500px;
 }
